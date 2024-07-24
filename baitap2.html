@@ -1,0 +1,140 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .wraper {
+            display: flex ;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            width: 1440px;
+
+            
+        }
+        .navigation {
+            width: 1440px;
+            height: 72px;
+            
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .leftnav {
+            display: flex ;
+            flex-direction: row;
+            align-items: center;
+            margin-left: 165px;
+            gap: 32px;
+
+        }
+
+        .leftnavItems {
+            font-size: 14px;
+            font-weight: 500;
+            line-height: 20px;
+            
+
+            
+        }
+        .more {
+            display: flex ;
+            flex-direction: row;
+            align-items: center;
+            gap: 4px;
+            font-size: 14px;
+            font-weight: 500;
+            line-height: 20px;
+        }
+        .rightnav {
+            display: flex ;
+            flex-direction: row;
+            align-items: center;
+            gap: 32px;
+        }
+    
+        .content{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+
+
+        }
+        .title {
+            font-size: 72px;
+            font-weight: 800;
+            line-height: 98px;
+            text-align: center;
+            margin-top: 168px;
+            margin-left: 165px;
+            margin-right: 165px;
+        }
+        .button {
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 24px;
+            padding: 12px 32px;
+            background-color: blueviolet;
+            border-radius: 6px;
+            color: white;
+            margin-top: 32px;
+        
+        }
+        .image {
+            margin-top:94px ;
+        }
+        .circle {
+            width: 1200px;
+            height: 1200px;
+            background-color:#D6B1FF;
+            border-radius: 50%;
+            position: absolute;
+            top: 692px;
+            z-index: -1;
+        }
+        .cut {
+            width: 1200px;
+            height: 171px;
+            background-color: white;
+            overflow: hidden;
+        }
+    
+    </style>
+</head>
+<body>
+   <div class="wraper">
+        <div class="navigation">
+            <div class="leftnav">
+                <img class="leftnavItems" src="/demo2/img/Dark.png"></img>
+                <div class="leftnavItems">About</div>
+                <div class="leftnavItems">Products</div>
+                <div class="leftnavItems">Pricing</div>
+                <div class="leftnavItems">Blog</div>
+                <div class="leftnavItems">Jobs</div>
+            <div class="more">More
+                <div class="icon"><img src="/demo2/img/chevron-down.png" alt="" class="icon"></div>
+                
+            </div> 
+           
+            </div>
+            <div class="rightnav">
+                <img src="/demo2/img/Google Play Badge.png" alt="" class="rightnav"></img>
+                 <img src="/demo2/img/App Store Badge.png" alt="" class="rightnav" style="margin-right: 165px;"></img>
+            </div>
+            
+        </div>
+        <div class="content">
+            <div class="title">Track your product sales from anywhere, anytimes.</div>
+            <div class="button">Start selling</div>
+            <img src="/demo2/img/iPhone X.png" class="image"></img>
+            <div class="cut">
+                <div class="circle"></div>
+            </div>
+            
+        </div>
+   </div>
+</body>
+</html>
